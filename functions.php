@@ -3,7 +3,7 @@
     session_start();
 	date_default_timezone_set('America/New_York');
 	//mysql_query("SET `time_zone` = '".date('P')."'");
-    $link = mysqli_connect("localhost", "smstwitter", "smstwitter1!", "smstwitter");
+    $link = mysqli_connect("");
 	
     if (mysqli_connect_errno()) {
         
